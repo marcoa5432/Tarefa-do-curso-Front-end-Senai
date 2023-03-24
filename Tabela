@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-AU-Compatible" content="IE=7">
+        <title>tabela</title>
+    </head>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        table {
+            width: 100%;
+            font-size: 30px;
+        }
+    </style>
+    <body>
+        <h1>tabela</h1>
+        <table>
+            <tr>
+                <th>Empresa</th>
+                <th>Contatos</th>
+                <th>pais</th>
+            </tr>
+            <tr>
+                <td>facebook</td>
+                <td>11 95786455</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Twitter</td>
+                <td>+1 59987984</td>
+                <td>USA</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th>Sálario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>R$ 1050</td>
+                </tr>
+                <tr>
+                    <td>março</td>
+                    <td>R$ 800</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Soma</td>
+                    <td>R$ 1850</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
